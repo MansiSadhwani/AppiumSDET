@@ -61,6 +61,7 @@ public void GoogletaskPrep() throws InterruptedException, IOException {
   
   @AfterClass
   public void afterClass() {
+	  driver.close();
   }
 
 }
